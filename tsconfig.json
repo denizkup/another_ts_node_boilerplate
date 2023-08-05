@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "commonjs",
+    "lib": ["ES2022"],
+    "rootDir": "./src",
+    "outDir": "dist",
+    "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
+    "alwaysStrict": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": false,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "removeComments": true
+    
+
+    // "baseUrl": ".",
+    // "paths": {
+    //   "@services/*": [
+    //       "src/services/*"
+    //   ],
+    //   "@controllers/*":[
+    //       "src/controllers/*"
+    //   ]
+    // }
+  },
+  "include": [
+    "./src/**/*", 
+    "./__tests__/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+]
+}
