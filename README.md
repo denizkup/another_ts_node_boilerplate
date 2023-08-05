@@ -16,7 +16,7 @@ To run available scirpt
 ```
 Available scripts:
 
-    'start:dev'  -> To run in development mode with nodemon
+    start:dev  -> To run in development mode with nodemon
     start:prod -> To run in production
     build:dev  -> To build for development
     build:prod -> To build for production
