@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:prod":"node dist/index.js",
     "start:dev":"nodemon src/index.ts",
+    "start:prod":"node dist/index.js",
     "build:dev":"tsc -p tsconfig.json",
     "build:prod": "npm run clean && tsc -p tsconfig.prod.json",
     "clean":"rm -rf dist coverage",

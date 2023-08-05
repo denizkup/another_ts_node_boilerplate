@@ -1,6 +1,6 @@
 function login(username: string, password: string): boolean{
     
-    if(username === "deniz" && password === "blms"){
+    if(username === "deniz" && password === "deniz"){
         return true;
     }
     return false
